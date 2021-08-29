@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activemq_basic" />
+        <module name="springbootconsumer" />
+        <module name="springbootproducer" />
+        <module name="springboottopicconsumer" />
+        <module name="springboottopicproducer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-mq-produce" target="1.8" />
+      <module name="springbootmqproduce" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activemq_basic" options="-parameters" />
+      <module name="springbootconsumer" options="-parameters" />
+      <module name="springbootproducer" options="-parameters" />
+      <module name="springboottopicconsumer" options="-parameters" />
+      <module name="springboottopicproducer" options="-parameters" />
+    </option>
+  </component>
+</project>
